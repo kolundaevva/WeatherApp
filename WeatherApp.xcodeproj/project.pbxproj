@@ -56,15 +56,55 @@
 		4740A42C27F6F9AC00385905 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				4740A42D27F6F9AD00385905 /* AppDelegate.swift */,
-				4740A42F27F6F9AD00385905 /* SceneDelegate.swift */,
-				4740A43127F6F9AD00385905 /* ViewController.swift */,
-				4740A43327F6F9AD00385905 /* Main.storyboard */,
-				4740A43627F6F9B000385905 /* Assets.xcassets */,
-				4740A43827F6F9B000385905 /* LaunchScreen.storyboard */,
-				4740A43B27F6F9B000385905 /* Info.plist */,
+				47AFEA0A27F78CC00000D0C1 /* Extensions */,
+				47AFEA0927F78CB40000D0C1 /* View Controllers */,
+				47AFEA0827F78CA10000D0C1 /* Storyboards */,
+				47AFEA0727F78C9B0000D0C1 /* Models */,
+				47AFEA0627F78C870000D0C1 /* Supporting Files */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		47AFEA0627F78C870000D0C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4740A42D27F6F9AD00385905 /* AppDelegate.swift */,
+				4740A42F27F6F9AD00385905 /* SceneDelegate.swift */,
+				4740A43627F6F9B000385905 /* Assets.xcassets */,
+				4740A43B27F6F9B000385905 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47AFEA0727F78C9B0000D0C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47AFEA0827F78CA10000D0C1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4740A43327F6F9AD00385905 /* Main.storyboard */,
+				4740A43827F6F9B000385905 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		47AFEA0927F78CB40000D0C1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4740A43127F6F9AD00385905 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		47AFEA0A27F78CC00000D0C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = "WeatherApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +345,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = "WeatherApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
