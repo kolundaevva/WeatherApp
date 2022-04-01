@@ -13,6 +13,7 @@
 		4740A43527F6F9AD00385905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4740A43327F6F9AD00385905 /* Main.storyboard */; };
 		4740A43727F6F9B000385905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4740A43627F6F9B000385905 /* Assets.xcassets */; };
 		4740A43A27F6F9B000385905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4740A43827F6F9B000385905 /* LaunchScreen.storyboard */; };
+		47AFEA0C27F795710000D0C1 /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AFEA0B27F795710000D0C1 /* ViewController+alertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4740A43627F6F9B000385905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4740A43927F6F9B000385905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4740A43B27F6F9B000385905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AFEA0B27F795710000D0C1 /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		47AFEA0A27F78CC00000D0C1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				47AFEA0B27F795710000D0C1 /* ViewController+alertController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4740A43227F6F9AD00385905 /* ViewController.swift in Sources */,
+				47AFEA0C27F795710000D0C1 /* ViewController+alertController.swift in Sources */,
 				4740A42E27F6F9AD00385905 /* AppDelegate.swift in Sources */,
 				4740A43027F6F9AD00385905 /* SceneDelegate.swift in Sources */,
 			);
