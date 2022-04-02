@@ -23,8 +23,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="28J-QF-UIr">
                                 <rect key="frame" x="122" y="74" width="170" height="281.5"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PtD-Qx-vS6">
-                                        <rect key="frame" x="0.0" y="0.0" width="170" height="171.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PtD-Qx-vS6">
+                                        <rect key="frame" x="0.0" y="1.5" width="170" height="165.5"/>
                                         <color key="tintColor" name="infoColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="170" id="35P-7I-6oD"/>
@@ -125,10 +125,10 @@
     </scenes>
     <resources>
         <image name="background" width="375" height="667"/>
-        <image name="cloud.rain.fill" catalog="system" width="125" height="128"/>
+        <image name="cloud.fill" catalog="system" width="128" height="88"/>
         <image name="magnifyingglass.circle" catalog="system" width="128" height="121"/>
         <namedColor name="infoColor">
-            <color red="1" green="1" blue="0.71170800924301147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="1" blue="0.71200001239776611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
