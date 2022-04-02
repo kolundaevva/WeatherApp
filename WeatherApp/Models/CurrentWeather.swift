@@ -12,12 +12,22 @@ struct CurrentWeather {
     
     let temperature: Double
     var temperatureString: String {
-        String(format: "%.0f", temperature)
+        let temp = String(format: "%.0f", temperature)
+        if temp == "-0" {
+            return "0"
+        } else {
+            return temp
+        }
     }
     
     let feelsLikeTemperature: Double
     var feelsLikeTemperatureString: String {
-        String(format: "%.0f", feelsLikeTemperature)
+        let temp = String(format: "%.0f", feelsLikeTemperature)
+        if temp == "-0" {
+            return "0"
+        } else {
+            return temp
+        }
     }
     
     let coditionCode: Int
